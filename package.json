@@ -1,0 +1,23 @@
+{
+  "name": "node-twitter-bot",
+  "version": "1.0.0",
+  "description": "A twitter bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexkiura/node-twitter-bot.git"
+  },
+  "author": "Alex Kiura",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexkiura/node-twitter-bot/issues"
+  },
+  "homepage": "https://github.com/alexkiura/node-twitter-bot#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "twit": "^2.2.5"
+  }
+}
