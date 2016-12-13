@@ -1,9 +1,8 @@
 // twitter configuration
-require('dotenv').config({ silent: true });
 
 module.exports = {
-  consumerKey: process.ENV.CONSUMER_KEY,
-  consumerSecret: process.ENV.CONSUMER_SECRET,
-  accessToken: process.ENV.ACCESS_TOKEN,
-  accessTokenSecret: process.ENV.ACCESS_TOKEN_SECRET,
+  consumer_key: process.env.CONSUMER_KEY,
+  consumer_secret: process.env.CONSUMER_SECRET,
+  access_token: process.env.ACCESS_TOKEN,
+  access_token_secret: process.env.ACCESS_TOKEN_SECRET,
 };
